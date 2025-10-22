@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "my_bucket" {
   acl    = "private"
 
   tags = {
-    Environment = "dev"
+    Environment = "aws"
     Project     = "Terraform Demo"
   }
 }
