@@ -10,6 +10,6 @@ resource "aws_s3_bucket" "my_bucket" {
 
   tags = {
     Environment = "EC2-DEMO"
-    Project     = "Terraform"
+    Project     = "docker"
   }
 }
